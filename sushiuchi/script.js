@@ -39,7 +39,7 @@ async function RenderNextSentence() {
     typeDisplay.appendChild(characterSpan);
   });
 
-  typeInput.innerText = "";
+  typeInput.value = "";
   StartTimer();
 }
 
